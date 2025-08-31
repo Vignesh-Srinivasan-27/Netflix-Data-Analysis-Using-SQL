@@ -48,7 +48,7 @@ SELECT
     type,
     COUNT(*) as total_content
 FROM netflix
-GROUP BY 1;
+GROUP BY type;
 ```
 
 **Objective:** Determine the distribution of content types on Netflix.
